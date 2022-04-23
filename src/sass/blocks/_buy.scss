@@ -1,0 +1,71 @@
+.buy {
+    height: 957px;
+    background: url("../img/buy/buy.jpg") no-repeat center/cover;
+    &__descr {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    &__text {
+        margin-top: 220px;
+        margin-right: 70px;
+        color: #333333;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41px;
+        
+    }
+    &__subtitle {
+        margin-top: 55px;
+        margin-bottom: 0;
+        width: 450px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 39px;
+    }
+    &__tas {
+        margin-top: 85px;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 35px;
+        color: #333333;
+    }
+    &__img {
+        position: relative;
+        padding-top: 110px;
+        margin-left: 130px;
+        width: 425px;
+        right: 0;
+        img {
+            width: 100%;
+        }
+    }
+    &__tasks {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    &__skill {
+        margin-bottom: 60px;
+        &-item, &-item2 {
+            display: flex;
+            width: 230px;
+            margin: 0 55px 0 0px;
+            .tit {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #333333;
+                margin: 0 0px 0 13px;
+            }
+        }
+        &-item2 {
+            width: 440px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}

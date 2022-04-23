@@ -1,0 +1,107 @@
+.purchase {
+    padding-top: 170px;
+    &__descr {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41px;
+        color: #333333;
+    }
+    &__subtitle {
+        margin-top: 55px;
+        margin-right: 150px;
+        margin-bottom: 0;
+        width: 450px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 39px;
+        color: #4B4B4B;
+    }
+    &-rectangle {
+        position: absolute;
+        background: url("../img/purchase/tre.jpg") center /cover no-repeat;
+        display: flex;
+        width: 450px;
+        height: 222px;
+        position: relative;
+
+        
+        p {
+            position: absolute;
+            margin-top: 40px;
+            margin-bottom: 0;
+            right: 35px;
+            width: 250px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 23px;
+            color: #323232;
+            z-index: 10;
+        }
+    }
+    &__img {
+        
+        img {
+            margin-top: 50px;
+            position: absolute;
+            left: 40px;
+            
+        }
+    }
+    &__shadow {
+        position: absolute;
+        padding-top: 160px;
+        padding-left: 45px;
+    }
+    &__form {
+        background: url("../img/purchase/form.jpg") center /cover no-repeat;
+        height: 165px;
+        margin-top: 140px;
+        
+
+        
+        &-feed {
+            padding-top: 50px;
+            padding-left: 85px;
+           input {
+            margin-right: 32px;
+            width: 300px;
+            height: 69px;
+            background: #FFFFFF;
+            border: 1px solid rgba(146, 146, 146, 0.3);
+            box-sizing: border-box;
+            padding: 0 20px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            color: #929292;
+            outline: none;
+           }
+           button {
+            width: 300px;
+            height: 69px;
+            background: #FFFFFF;
+            border: 1px solid rgba(146, 146, 146, 0.3);
+            box-sizing: border-box;
+            padding: 0px 30px;
+            transition: 0.5s all;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #383838;
+            transition: .5s all;
+            &:hover {
+                background: rgb(66, 65, 65);
+                color: #F8F8F8;
+            }
+        }
+        
+        }
+    }
+    
+}

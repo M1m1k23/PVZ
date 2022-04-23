@@ -1,0 +1,46 @@
+.contact {
+    background: #F8F8F8;
+    padding-top: 245px;
+    padding-bottom: 50px;
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41px;
+        color: #333333;
+    }
+    &__num, &__info {
+        margin-top: 120px;
+        a {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 43px;
+            color: #272727;
+            text-decoration: none;
+        }
+    }
+    &__info {
+        margin-top: 27px;
+    }
+    &__social {
+        margin-top: 45px;
+        a {
+            margin-right: 21px;
+            img {
+                transition: .5s all;
+                &:hover {
+                    transform: translateY(-15px);
+                }
+            }  
+        }
+    }
+    &__map {
+        margin-top: 65px;    
+        margin-left: 110px;
+        height: 370px;
+    }
+}
